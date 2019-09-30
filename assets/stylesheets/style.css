@@ -1,0 +1,62 @@
+/* base styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  font-weight: 300;
+  font-family: 'Be Vietnam', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.25rem;
+  background-color: #fcfcfc;
+}
+
+/* utilities */
+
+.container {
+  margin: 5rem 15rem;
+}
+
+.page-divider {
+  border-bottom: 1px solid #ddd;
+}
+
+/* navigation */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  width: 20rem;
+}
+
+.nav__logo img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.nav__links {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #999;
+}
+
+.nav__links li {
+  margin-right: 5rem;
+}
+
